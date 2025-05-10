@@ -53,13 +53,13 @@ Para rodar o projeto localmente, siga as etapas abaixo:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/baestero/react-exercicios.git
+   git clone https://github.com/baestero/praticando-React.git
    ```
 
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd react-exercicios
+   cd praticando-React
    ```
 
 3. Instale as dependências:
