@@ -16,10 +16,15 @@ src/
 │   ├── aula1/
 │   ├── meu-exercicio/
 │   └── correcao/
-└── eventos/
-    ├── aula1/
-    ├── meu-exercicio/
-    └── correcao/
+├── eventos/
+│   ├── aula1/
+│   ├── meu-exercicio/
+│   └── correcao/
+├── componentes/
+│   └── aula1/
+└── propriedades/
+    └── aula1/
+
 ```
 
 ## Descrição das Pastas
@@ -45,6 +50,12 @@ Em seguida, explorei como manipular arrays em React, utilizando métodos como ma
 
 Eventos em React
 Atualmente, estou aprendendo como lidar com eventos em React. Esse conceito é essencial para criar interfaces interativas, como botões clicáveis, campos de formulário, etc. Os exercícios estão na pasta eventos/ e têm me ajudado a entender como reagir a interações do usuário e atualizar o estado dos componentes.
+
+Componentes
+Aprendi como criar componentes funcionais reutilizáveis no React. Os componentes são a base da estrutura de uma aplicação React, permitindo dividir a interface em partes menores e independentes.
+
+Propriedades (Props)
+Estudei o uso de propriedades (props) para passar dados entre componentes. Isso é essencial para tornar os componentes reutilizáveis e dinâmicos, permitindo que cada instância de um componente se comporte de forma diferente de acordo com os dados recebidos.
 
 ## Como Rodar o Projeto
 
