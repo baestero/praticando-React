@@ -8,22 +8,33 @@ O repositório está organizado da seguinte forma:
 
 ```
 src/
-├── jsx-basico/
+├── 001 - jsx-basico/
 │   ├── aula1/
 │   ├── meu-exercicio/
 │   └── correcao/
-├── arrays/
+├── 002 - arrays/
 │   ├── aula1/
 │   ├── meu-exercicio/
 │   └── correcao/
-├── eventos/
+├── 003 - eventos/
 │   ├── aula1/
 │   ├── meu-exercicio/
 │   └── correcao/
-├── componentes/
+├── 004 - componentes/
 │   └── aula1/
-└── propriedades/
-    └── aula1/
+├── 005 - propriedades/
+│   └── aula1/
+├── 006 - Desafio Componentes/
+│   └── meu-desafio/
+├── 007 - Desafio Componentes - Correcao/
+│   └── desafio-corrigido/
+├── 008 - useState/
+│   ├── aula1/
+│   ├── aula2/
+│   └── aula3/
+├── 009 - Desafio useState/
+│   └── meu-desafio/
+
 
 ```
 
@@ -56,6 +67,9 @@ Aprendi como criar componentes funcionais reutilizáveis no React. Os componente
 
 Propriedades (Props)
 Estudei o uso de propriedades (props) para passar dados entre componentes. Isso é essencial para tornar os componentes reutilizáveis e dinâmicos, permitindo que cada instância de um componente se comporte de forma diferente de acordo com os dados recebidos.
+
+Estado (useState)
+Comecei a trabalhar com o hook useState, que permite adicionar estado aos componentes funcionais. Com ele, aprendi a armazenar e atualizar dados dentro de um componente, como contadores, valores de inputs e outros. Isso me ajudou a entender como o React reage às mudanças de estado e re-renderiza a interface dinamicamente. Os exemplos estão na pasta useState/.
 
 ## Como Rodar o Projeto
 
