@@ -34,7 +34,7 @@ src/
 │   └── aula3/
 ├── 009 - Desafio useState/
 │   └── meu-desafio/
-
+....
 
 ```
 
@@ -68,8 +68,10 @@ Aprendi como criar componentes funcionais reutilizáveis no React. Os componente
 Propriedades (Props)
 Estudei o uso de propriedades (props) para passar dados entre componentes. Isso é essencial para tornar os componentes reutilizáveis e dinâmicos, permitindo que cada instância de um componente se comporte de forma diferente de acordo com os dados recebidos.
 
-Estado (useState)
+Estado (useState) e Efeitos Colaterais (useEffect)
 Comecei a trabalhar com o hook useState, que permite adicionar estado aos componentes funcionais. Com ele, aprendi a armazenar e atualizar dados dentro de um componente, como contadores, valores de inputs e outros. Isso me ajudou a entender como o React reage às mudanças de estado e re-renderiza a interface dinamicamente. Os exemplos estão na pasta useState/.
+
+Além disso, aprendi a usar o hook useEffect, que permite lidar com efeitos colaterais no React, como requisições a APIs, manipulação de timers e interação com o localStorage. Com o useEffect, entendi como executar código em momentos específicos do ciclo de vida do componente, como no carregamento inicial ou sempre que certos estados mudam. Os exemplos estão organizados na pasta useEffect/.
 
 ## Como Rodar o Projeto
 
