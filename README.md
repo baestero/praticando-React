@@ -73,6 +73,9 @@ Comecei a trabalhar com o hook useState, que permite adicionar estado aos compon
 
 Além disso, aprendi a usar o hook useEffect, que permite lidar com efeitos colaterais no React, como requisições a APIs, manipulação de timers e interação com o localStorage. Com o useEffect, entendi como executar código em momentos específicos do ciclo de vida do componente, como no carregamento inicial ou sempre que certos estados mudam. Os exemplos estão organizados na pasta useEffect/.
 
+Rotas com React Router DOM
+Mais recentemente, estudei o React Router DOM, aprendendo a trabalhar com navegação entre páginas usando os componentes Routes, Route e Link, além dos hooks useParams e useLocation. Esses recursos me ajudaram a entender como estruturar aplicações com múltiplas páginas e como acessar informações da URL para renderizar conteúdos dinâmicos. Os exemplos práticos estão organizados em pastas específicas relacionadas a rotas.
+
 ## Como Rodar o Projeto
 
 Para rodar o projeto localmente, siga as etapas abaixo:
