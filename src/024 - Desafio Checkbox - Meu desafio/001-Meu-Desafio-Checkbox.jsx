@@ -25,24 +25,19 @@ const App = () => {
 
   return (
     <form>
-      <label>
-        <input
-          type="checkbox"
-          value="azul"
-          checked={handleChecked("azul")}
-          onChange={handleChange}
-        />
-        Azul
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          value="vermelho"
-          checked={handleChecked("vermelho")}
-          onChange={handleChange}
-        />
-        Vermelho
-      </label>
+      {coresArray.map((cor) => {
+        return (
+          <label key={cor}>
+            <input
+              type="checkbox"
+              value={cor}
+              checked={handleChecked(cor)}
+              onChange={handleChange}
+            />{" "}
+            {cor.charAt(0).toLocaleUpperCase() + cor.slice(1)}
+          </label>
+        );
+      })}
     </form>
   );
 };

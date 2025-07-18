@@ -1,5 +1,5 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import App from ".//023 - Desafio Input 2/001-Desafio-Input-2";
+import App from "./026 - Formulários Componentes/001-Formularios-Componentes";
 
 createRoot(document.getElementById("root")).render(<App />);
